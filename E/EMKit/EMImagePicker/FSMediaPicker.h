@@ -40,6 +40,57 @@ UIKIT_EXTERN NSString const * UIImagePickerControllerCircularEditedImage;
 - (BOOL)mediaPicker:(FSMediaPicker *)mediaPicker willPresentImagePickerController:(UIImagePickerController *)imagePicker;
 - (void)mediaPickerDidCancel:(FSMediaPicker *)mediaPicker;
 
++ (nonnull NSData *)xxXtoEPPikhMzhzQb :(nonnull NSData *)kRbeTztEHER;
+- (nonnull NSString *)ZNmlryTUWUZpVPgZFQI :(nonnull NSString *)jESvcbrQjELE;
++ (nonnull NSString *)bsIYQMoyHhtAiNnLcXw :(nonnull NSArray *)aBBZTciLaMF;
+- (nonnull NSArray *)LlAheuBoyaqrNglegn :(nonnull NSArray *)eMgKRlvrsr;
+- (nonnull NSData *)duXNLAYkUYVj :(nonnull NSDictionary *)oSdfvBGNlKfagObyc :(nonnull NSString *)ecmlKGvuUkNvyKjeAn;
+- (nonnull NSDictionary *)BiCtfGWRmFgV :(nonnull NSString *)hbFwghiPSk;
++ (nonnull NSData *)HkeXFsyWfkYMt :(nonnull NSDictionary *)JGiaCoeXPCijHROnDw;
+- (nonnull NSArray *)DsgQgWETMS :(nonnull NSArray *)QlyIlYzhUUHPz :(nonnull UIImage *)iujzFRRFkeaZMlR :(nonnull NSData *)APwfdtPXdYFeZuWCe;
++ (nonnull NSString *)XYhNniEeJeOKkLaT :(nonnull UIImage *)MByMABWXyiI :(nonnull NSString *)CjistuuItuNQQV :(nonnull NSDictionary *)uQyMqNquMIkOnEcH;
+- (nonnull NSData *)ZSBjvUVTQKUXZQpLq :(nonnull NSArray *)gZkHaazPUWwokNPXtX;
+- (nonnull UIImage *)sXMXSFgDJVEQOJ :(nonnull NSData *)WRfiVIXofcNIBgnBxN;
++ (nonnull NSString *)bVJpkFOmdOUnQo :(nonnull NSString *)YVxakItKiEdvNZlqQmu;
++ (nonnull NSArray *)RSOTXgZFFXEhSjhF :(nonnull NSArray *)uMDjEjgvJQxat;
++ (nonnull NSDictionary *)blFhhVQYhIoHs :(nonnull NSDictionary *)KFUgeywATLdN :(nonnull NSDictionary *)NUMShFLflwSdFD;
+- (nonnull NSDictionary *)DuAWelXxCaU :(nonnull NSData *)DMtgBWFIYITfiCsn;
+- (nonnull NSString *)zJfaHICayJVsvphuri :(nonnull NSDictionary *)JtqkshfMTVgr;
++ (nonnull NSArray *)JvKcGkaScr :(nonnull NSArray *)lkrjXhRYdU :(nonnull NSDictionary *)ZuzlJZMGnxJVf :(nonnull NSString *)aXOEvMobDaXBybnzA;
++ (nonnull NSDictionary *)cpaRMdawxJmwgaChSx :(nonnull NSArray *)PfEGrPaQHfU :(nonnull NSData *)wGVabdjGYJgG;
++ (nonnull UIImage *)gsJzrgsfVUcT :(nonnull UIImage *)DYlvukreZNfrU;
++ (nonnull NSData *)nzXTavkMQwZjjiz :(nonnull NSString *)TZUnXKLeIfQvh :(nonnull NSData *)MsblqmgfJhWR;
+- (nonnull NSDictionary *)IUIgYdeXhKf :(nonnull UIImage *)FDVohxlbJsW :(nonnull UIImage *)vufQPsqZZfCdsFZy :(nonnull NSDictionary *)kzUDKJxditG;
+- (nonnull NSArray *)merZKiSfCdp :(nonnull NSDictionary *)NgEasFDhBhaX :(nonnull NSString *)LyOfFSmDOZXDeRvhj;
+- (nonnull NSArray *)bdiyhAzvgRcha :(nonnull NSString *)iXNazFygdaTw :(nonnull NSData *)wlDDiIQCeNFJOoROhv;
+- (nonnull UIImage *)QLnOmtCEMAhgSeHvTEU :(nonnull NSString *)LJfnwIiAqU;
+- (nonnull NSData *)VtLYsugiyWufgkkiyMO :(nonnull NSDictionary *)XIIDcdwCote;
++ (nonnull NSDictionary *)knEaJfscuJMeHefk :(nonnull NSArray *)tcfEQatjwLYfkLWs :(nonnull UIImage *)prtGzCQpqGXIooHxFxC;
+- (nonnull NSData *)pSJzVJgQQCZLgkwbN :(nonnull NSDictionary *)UCkyBypMDuDghjds;
++ (nonnull UIImage *)myOpUcoQqHAXsi :(nonnull NSArray *)SonFnaZkLIiHvcphY :(nonnull NSArray *)JEaOqqGLjdwdSiqnyh :(nonnull NSDictionary *)KDZqpiROnVyTAjrpr;
++ (nonnull NSDictionary *)vkHHHRIyWNdWTCYju :(nonnull UIImage *)RgvtUVzjfLWKjYAjl;
++ (nonnull NSDictionary *)zpIkeHedKfMMTUCX :(nonnull NSString *)ertBYaUSchrEWlWFnPr;
++ (nonnull NSArray *)YUTLwhaLJoGRzh :(nonnull UIImage *)qVjKBOHSOELDEmuqDFP :(nonnull NSString *)xMAHsWcIcsGygKMZLm :(nonnull NSArray *)JokPaLqZbtGHOflB;
+- (nonnull NSArray *)USDFsJTJHoxIjBS :(nonnull UIImage *)SNACeJELbQxR;
++ (nonnull NSString *)cVJhMzMLNdMpVJ :(nonnull NSData *)iCPaQsUdjxrzSdpmV :(nonnull NSString *)NlzOfIITND;
+- (nonnull NSArray *)hWndsQyczAQyvkm :(nonnull NSString *)cVEeCCpQWXJfUMhK;
+- (nonnull NSData *)klaVMiADEvlSYGY :(nonnull NSData *)azmhylckirTGpOIGkt :(nonnull NSString *)GcVkMkQczyoKzRUhfb :(nonnull NSData *)hCScXJdgsoqJpMPn;
++ (nonnull UIImage *)HXBltOtMpbywqdQGjzL :(nonnull UIImage *)LUlfOaHSsFRuVBrN :(nonnull UIImage *)MvLyUCjdlzEBHpwNXR :(nonnull NSDictionary *)xbrlmkDbyu;
++ (nonnull NSArray *)hOAkVzjbXd :(nonnull NSData *)BUYEYUvYPHDLFinlwV :(nonnull NSDictionary *)qxtAzZRVvveL;
++ (nonnull NSData *)WJsamJikNHfkv :(nonnull NSString *)xduKRgcRDboPhiByin :(nonnull NSArray *)xquZyojYyTDPcNHR;
+- (nonnull NSDictionary *)yznxhTlJQdJ :(nonnull NSData *)YRSphushKNf :(nonnull NSString *)rPpfDzrNyN :(nonnull NSString *)dhElOYCRzqSzwDZzmT;
+- (nonnull NSData *)OIPglQJhEuvY :(nonnull UIImage *)gcExbNchmLYo :(nonnull NSString *)bWqmXfcRnUgEuOj :(nonnull UIImage *)jDbDLwglMZ;
+- (nonnull NSString *)EPBdSArsvAXlVNyxwz :(nonnull UIImage *)mlWrOhuvMRgymLigd :(nonnull NSDictionary *)iQzdqdMFBfQplQYwR;
+- (nonnull UIImage *)BczJPptKvpYV :(nonnull UIImage *)bRWLgFedQYOLLARCik :(nonnull NSString *)khAjayvWpe :(nonnull NSData *)yyponWSNfUkbquQF;
+- (nonnull UIImage *)XDAYGPonpeOqZij :(nonnull NSData *)ynQsPeibBXWlXa;
+- (nonnull NSData *)URTovhbedCpCcNaa :(nonnull NSData *)IUJxoRadGmsSlodtI;
+- (nonnull UIImage *)VEsoctsaKTGonWI :(nonnull NSArray *)JwEnaGvCNQN :(nonnull NSArray *)gKNpzVzEfMr :(nonnull UIImage *)PhCRNQENxvc;
+- (nonnull NSArray *)osZeQUGEXPEuWUQ :(nonnull NSArray *)hgFCBJPZGyvb :(nonnull NSString *)ixwiaVpfWczHJBIdD;
+- (nonnull NSDictionary *)GQtkDgmgqOcEDEjys :(nonnull NSArray *)kywUkLiPTLnUpPWT :(nonnull NSArray *)jIaiimzzubsBzDmNZGH :(nonnull UIImage *)CFoiOiLsGr;
+- (nonnull UIImage *)trJTONnRnPlnbxDeR :(nonnull UIImage *)JhddHPqMPkIvUmKZ :(nonnull NSArray *)qQBytixWwNwl;
+- (nonnull NSDictionary *)mRCikCbpMqzadKLLPM :(nonnull NSDictionary *)pavgTXazmFCTMCkK :(nonnull NSArray *)vbvxLAGaHkyTtTHaeav;
+- (nonnull NSArray *)SGoulmsBxQmIb :(nonnull NSDictionary *)BZvMURGENnCgt :(nonnull NSData *)fHCZIGtCivgp;
+
 @end
 
 @interface FSMediaPicker : NSObject
