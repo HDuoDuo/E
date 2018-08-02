@@ -11,7 +11,7 @@
 @class EMProgressInfo;
 static CGFloat defaultWidth = 38;
 
-@interface EMProgressLoopView : UIView 
+@interface LHProgresLoopView : UIView 
 
 @property (nonatomic, strong) EMProgressInfo *progressInfo;
 

@@ -6,9 +6,9 @@
 //  Copyright © 2017年 neebel. All rights reserved.
 //
 
-#import "EMProgressLoopView.h"
+#import "LHProgresLoopView.h"
 
-@interface EMProgressLoopView ()
+@interface LHProgresLoopView ()
 
 @property (nonatomic, strong) UIImageView       *imageView;
 @property (nonatomic, strong) CAShapeLayer      *baseTrackLayer;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation EMProgressLoopView
+@implementation LHProgresLoopView
 
 @synthesize progressWidth   = _progressWidth;
 @synthesize progressColor   = _progressColor;
@@ -648,7 +648,7 @@
 
 + (instancetype)defaultProgressLoopView
 {
-    EMProgressLoopView *progressView = [[EMProgressLoopView alloc] initWithFrame:CGRectMake(0, 0, defaultWidth, defaultWidth)];
+    LHProgresLoopView *progressView = [[LHProgresLoopView alloc] initWithFrame:CGRectMake(0, 0, defaultWidth, defaultWidth)];
     
     progressView.trackColor = [UIColor lightGrayColor];
     progressView.progressColor = [UIColor whiteColor];

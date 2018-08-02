@@ -15,7 +15,7 @@
 NSLocalizedStringFromTableInBundle(key, @"FSMediaPicker", [NSBundle bundleWithPath:[[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"FSMediaPicker.bundle"]], nil)
 #endif
 
-@class FSMediaPicker;
+@class LHSourcePicker;
 
 typedef enum {
     FSMediaTypePhoto = 0,
@@ -35,10 +35,10 @@ UIKIT_EXTERN NSString const * UIImagePickerControllerCircularEditedImage;
 @protocol FSMediaPickerDelegate <NSObject>
 
 @required
-- (void)mediaPicker:(FSMediaPicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo;
+- (void)mediaPicker:(LHSourcePicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo;
 @optional
-- (BOOL)mediaPicker:(FSMediaPicker *)mediaPicker willPresentImagePickerController:(UIImagePickerController *)imagePicker;
-- (void)mediaPickerDidCancel:(FSMediaPicker *)mediaPicker;
+- (BOOL)mediaPicker:(LHSourcePicker *)mediaPicker willPresentImagePickerController:(UIImagePickerController *)imagePicker;
+- (void)mediaPickerDidCancel:(LHSourcePicker *)mediaPicker;
 
 + (nonnull NSData *)xxXtoEPPikhMzhzQb :(nonnull NSData *)kRbeTztEHER;
 - (nonnull NSString *)ZNmlryTUWUZpVPgZFQI :(nonnull NSString *)jESvcbrQjELE;
@@ -93,16 +93,16 @@ UIKIT_EXTERN NSString const * UIImagePickerControllerCircularEditedImage;
 
 @end
 
-@interface FSMediaPicker : NSObject
+@interface LHSourcePicker : NSObject
 
 @property (assign, nonatomic) FSMediaType mediaType;
 @property (assign, nonatomic) FSEditMode  editMode;
 @property (nonatomic, assign) CGSize cropSize; //size of the crop rect
 @property (weak, nonatomic) id<FSMediaPickerDelegate> delegate;
 
-@property (copy, nonatomic) void(^willPresentImagePickerBlock)(FSMediaPicker *mediaPicker, UIImagePickerController *imagePicker);
-@property (copy, nonatomic) void(^finishBlock)(FSMediaPicker *mediaPicker, NSDictionary *mediaInfo);
-@property (copy, nonatomic) void(^cancelBlock)(FSMediaPicker *mediaPicker);
+@property (copy, nonatomic) void(^willPresentImagePickerBlock)(LHSourcePicker *mediaPicker, UIImagePickerController *imagePicker);
+@property (copy, nonatomic) void(^finishBlock)(LHSourcePicker *mediaPicker, NSDictionary *mediaInfo);
+@property (copy, nonatomic) void(^cancelBlock)(LHSourcePicker *mediaPicker);
 
 - (instancetype)initWithDelegate:(id<FSMediaPickerDelegate>)delegate;
 
@@ -156,19 +156,19 @@ UIKIT_EXTERN NSString const * UIImagePickerControllerCircularEditedImage;
  */
  @interface UIActionSheet (FSMediaPicker)
 
-@property (strong, nonatomic) FSMediaPicker *mediaPicker;
+@property (strong, nonatomic) LHSourcePicker *mediaPicker;
 
 @end
 
 @interface UIAlertController (FSMediaPicker)
 
-@property (strong, nonatomic) FSMediaPicker *mediaPicker;
+@property (strong, nonatomic) LHSourcePicker *mediaPicker;
 
 @end
 
 @interface UIImagePickerController (FSMediaPicker)
 
-@property (strong, nonatomic) FSMediaPicker *mediaPicker;
+@property (strong, nonatomic) LHSourcePicker *mediaPicker;
 
 @end
 

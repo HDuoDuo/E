@@ -704,12 +704,12 @@
 - (void)confirm
 {
     if (self.nameTextField.textField.text.length == 0) {
-        [EMTips show:NSLocalizedString(@"请输入物品名称", nil)];
+        [LHTips show:NSLocalizedString(@"请输入物品名称", nil)];
         return;
     }
     
     if (self.whereTextField.textField.text.length == 0) {
-        [EMTips show:NSLocalizedString(@"请输入物品放置位置", nil)];
+        [LHTips show:NSLocalizedString(@"请输入物品放置位置", nil)];
         return;
     }
     

@@ -12,7 +12,7 @@
 #import "EMSettingViewController.h"
 #import "EMDiaryInfo.h"
 #import "EMDiaryManager.h"
-#import "FSMediaPicker.h"
+#import "LHSourcePicker.h"
 
 @interface EMPublishDiaryViewController ()<EMSettingActionSheetDelegate, UITextViewDelegate, FSMediaPickerDelegate>
 
@@ -60,7 +60,7 @@
     [self closeKeyBoard];
     
     if (self.content.length == 0) {
-        [EMTips show:NSLocalizedString(@"请输入内容", nil)];
+        [LHTips show:NSLocalizedString(@"请输入内容", nil)];
         return;
     }
     
@@ -200,7 +200,7 @@
                         break;
                 }
             } else {
-                [EMTips show:NSLocalizedString(@"您的设备不支持拍照", nil)];
+                [LHTips show:NSLocalizedString(@"您的设备不支持拍照", nil)];
             }
         }
             break;
@@ -958,7 +958,7 @@
 {
     __weak typeof(self) weakSelf = self;
     [self checkAuthorizationWithType:kEMSettingHeadImageTypeCamera complete:^{
-        FSMediaPicker *mediaPicker = [[FSMediaPicker alloc] initWithDelegate:weakSelf];
+        LHSourcePicker *mediaPicker = [[LHSourcePicker alloc] initWithDelegate:weakSelf];
         mediaPicker.mediaType = FSMediaTypePhoto;
         mediaPicker.editMode = FSEditModeNone;
         [mediaPicker takePhotoFromCamera];
@@ -970,7 +970,7 @@
 {
     __weak typeof(self) weakSelf = self;
     [self checkAuthorizationWithType:kEMSettingHeadImageTypeAlbum complete:^{
-        FSMediaPicker *mediaPicker = [[FSMediaPicker alloc] initWithDelegate:weakSelf];
+        LHSourcePicker *mediaPicker = [[LHSourcePicker alloc] initWithDelegate:weakSelf];
         mediaPicker.mediaType = FSMediaTypePhoto;
         mediaPicker.editMode = FSEditModeNone;
         [mediaPicker takePhotoFromPhotoLibrary];
@@ -997,7 +997,7 @@
 
 #pragma mark - FSMediaPickerDelegate
 
-- (void)mediaPicker:(FSMediaPicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo
+- (void)mediaPicker:(LHSourcePicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo
 {
     [self updatePic:mediaInfo.originalImage];
 }

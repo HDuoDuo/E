@@ -13,7 +13,7 @@ typedef NS_ENUM(NSUInteger, EMLogoLoopViewStyle) {
     kLogoLoopWhite,
 };
 
-@interface EMLogoLoopView : UIView
+@interface LHLoopView : UIView
 
 - (instancetype)initWithStyle:(EMLogoLoopViewStyle)style;
 

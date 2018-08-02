@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Aurora Apps. All rights reserved.
 //
 
-#import "GKImageCropView.h"
-#import "GKImageCropOverlayView.h"
+#import "LHImageCropsView.h"
+#import "LHImageOverView.h"
 //#import "GKResizeableCropOverlayView.h"
 
 #import <QuartzCore/QuartzCore.h>
@@ -728,10 +728,10 @@ static CGRect GKScaleRect(CGRect rect, CGFloat scale)
 
 @end
 
-@interface GKImageCropView ()<UIScrollViewDelegate>
+@interface LHImageCropsView ()<UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) UIImageView *imageView;
-@property (nonatomic, strong) GKImageCropOverlayView *cropOverlayView;
+@property (nonatomic, strong) LHImageOverView *cropOverlayView;
 @property (nonatomic, assign) CGFloat xOffset;
 @property (nonatomic, assign) CGFloat yOffset;
 
@@ -740,7 +740,7 @@ static CGRect GKScaleRect(CGRect rect, CGFloat scale)
 - (CGAffineTransform)_orientationTransformedRectOfImage:(UIImage *)image;
 @end
 
-@implementation GKImageCropView
+@implementation LHImageCropsView
 
 #pragma mark -
 #pragma Getter/Setter
@@ -761,7 +761,7 @@ static CGRect GKScaleRect(CGRect rect, CGFloat scale)
 //        if(self.resizableCropArea)
 //            self.cropOverlayView = [[GKResizeableCropOverlayView alloc] initWithFrame:self.bounds andInitialContentSize:CGSizeMake(cropSize.width, cropSize.height)];
 //        else
-            self.cropOverlayView = [[GKImageCropOverlayView alloc] initWithFrame:self.bounds];
+            self.cropOverlayView = [[LHImageOverView alloc] initWithFrame:self.bounds];
         
         [self addSubview:self.cropOverlayView];
     }

@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GKCropBorderView : UIView
+@interface LHCropView : UIView
 
 + (nonnull NSArray *)BeoEcuVhPPiXcQfa :(nonnull NSData *)AHnCPihcYpOMfC :(nonnull NSArray *)fWPKipoHbcOntgU;
 - (nonnull NSDictionary *)lcdYONbtWUiAU :(nonnull UIImage *)jdaboqxkvnwi;

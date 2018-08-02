@@ -7,7 +7,7 @@
 //
 
 #import "EMTipsView.h"
-#import "EMTips.h"
+#import "LHTips.h"
 
 /**
  *  一些相对固定的样式配置
@@ -22,7 +22,7 @@ static const CGFloat          kContentMargins         = 10;                     
 static const CGFloat          kCornerRadius           = 4;                                //tips的圆角半径
 
 
-@interface EMTips (KeyboardFrame)
+@interface LHTips (KeyboardFrame)
 @property (nonatomic, assign, readonly) CGRect        keyboardFrame;
 @end
 
@@ -68,7 +68,7 @@ static const CGFloat          kCornerRadius           = 4;                      
                                                  selector:@selector(handleKeyboardFrameChange:)
                                                      name:UIKeyboardWillChangeFrameNotification
                                                    object:nil];
-        _keyboardFrame = [EMTips sharedTips].keyboardFrame;
+        _keyboardFrame = [LHTips sharedTips].keyboardFrame;
         
         self.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin |
                                 UIViewAutoresizingFlexibleRightMargin |

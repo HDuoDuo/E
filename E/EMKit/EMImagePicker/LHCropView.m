@@ -6,17 +6,17 @@
 //  Copyright (c) 2012 Aurora Apps. All rights reserved.
 //
 
-#import "GKCropBorderView.h"
+#import "LHCropView.h"
 
 #define kNumberOfBorderHandles 8
 #define kHandleDiameter 24
 
 
-@interface GKCropBorderView()
+@interface LHCropView()
 -(NSMutableArray*)_calculateAllNeededHandleRects;
 @end
 
-@implementation GKCropBorderView
+@implementation LHCropView
 
 - (id)initWithFrame:(CGRect)frame
 {

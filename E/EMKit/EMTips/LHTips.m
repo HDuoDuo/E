@@ -8,8 +8,8 @@
 
 #import <objc/runtime.h>
 
-#import "EMTips.h"
-#import "EMProgressLoopView.h"
+#import "LHTips.h"
+#import "LHProgresLoopView.h"
 
 @interface EMTipsInfo (Complete)
 @property (nonatomic, copy) void(^hiddenCompletion)(void);
@@ -19,7 +19,7 @@
 NSString *const                 kEMManualTipsView;
 
 
-@interface EMTips()
+@interface LHTips()
 
 @property (nonatomic, strong) EMTipsView        *autoTipsView;
 @property (nonatomic, strong) EMTipsView        *manualTipsView;
@@ -29,7 +29,7 @@ NSString *const                 kEMManualTipsView;
 
 @end
 
-@implementation EMTips
+@implementation LHTips
 
 #pragma mark - Life cycle
 
@@ -54,10 +54,10 @@ NSString *const                 kEMManualTipsView;
 
 + (instancetype)sharedTips
 {
-    static EMTips *_st = nil;
+    static LHTips *_st = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        _st = [[EMTips alloc] init];
+        _st = [[LHTips alloc] init];
     });
     return _st;
 }
@@ -84,7 +84,7 @@ NSString *const                 kEMManualTipsView;
 
 + (void)hideTips
 {
-    EMTips *shared = [EMTips sharedTips];
+    LHTips *shared = [LHTips sharedTips];
     EMTipsView *manualView = shared.manualTipsView;
     shared.manualTipsView = nil;
     if ([NSThread isMainThread]) {
@@ -918,7 +918,7 @@ NSString *const                 kEMManualTipsView;
 {
     EMTipsInfo *tips = [EMTipsInfo defaultAutoInfo];
     tips.title = text;
-    [EMTips showTips:tips complete:nil];
+    [LHTips showTips:tips complete:nil];
 }
 
 
@@ -997,7 +997,7 @@ NSString *const                 kEMManualTipsView;
     tips.message    = message;
     tips.duration   = duration;
     tips.superView  = container;
-    [EMTips showTips:tips complete:block];
+    [LHTips showTips:tips complete:block];
 }
 
 
@@ -1018,7 +1018,7 @@ NSString *const                 kEMManualTipsView;
     if (image) {
         tips.customView = [[UIImageView alloc] initWithImage:image];
     }
-    [EMTips showTips:tips complete:block];
+    [LHTips showTips:tips complete:block];
 }
 
 + (void)showLoading:(UIView *)loading
@@ -1049,7 +1049,7 @@ NSString *const                 kEMManualTipsView;
     tips.superView = container;
     tips.userInteractionEnabled = enable;
     tips.customView = loading;
-    [EMTips showTips:tips complete:nil];
+    [LHTips showTips:tips complete:nil];
 }
 
 
@@ -1072,20 +1072,20 @@ NSString *const                 kEMManualTipsView;
               offset:(CGPoint)offset
          interaction:(BOOL)enable
 {
-    EMTipsView *manualTipsView = [EMTips sharedTips].manualTipsView;
+    EMTipsView *manualTipsView = [LHTips sharedTips].manualTipsView;
     if (manualTipsView.visible && !manualTipsView.isProgress) {
-        [EMTips hideTips];
+        [LHTips hideTips];
     }
     if (!manualTipsView.visible) {
         EMTipsInfo *tips = [EMTipsInfo defaultManualInfo];
         tips.message = message;
         tips.offset = offset;
         tips.superView = container;
-        EMProgressLoopView *progressView = [EMProgressLoopView defaultProgressLoopView];
+        LHProgresLoopView *progressView = [LHProgresLoopView defaultProgressLoopView];
         progressView.progress = progress;
         tips.customView = progressView;
         tips.userInteractionEnabled = enable;
-        [EMTips showTips:tips complete:nil];
+        [LHTips showTips:tips complete:nil];
     } else {
         UIView<EMTipsProgressProtocol> *progressView = (UIView<EMTipsProgressProtocol> *)manualTipsView.customView;
         if ([progressView respondsToSelector:@selector(setProgress:)]) {
@@ -1103,16 +1103,16 @@ NSString *const                 kEMManualTipsView;
 
 + (void)showProgress:(CGFloat)progress message:(NSString *)message
 {
-    EMTipsView *manualTipsView = [EMTips sharedTips].manualTipsView;
+    EMTipsView *manualTipsView = [LHTips sharedTips].manualTipsView;
     if (manualTipsView.visible && !manualTipsView.isProgress) {
-        [EMTips hideTips];
+        [LHTips hideTips];
     }
     
     if (!manualTipsView.visible) {
         EMTipsInfo *tips = [EMTipsInfo defaultManualInfo];
         tips.message = message;
-        tips.customView = [EMProgressLoopView defaultProgressLoopView];
-        [EMTips showTips:tips complete:nil];
+        tips.customView = [LHProgresLoopView defaultProgressLoopView];
+        [LHTips showTips:tips complete:nil];
     } else {
         UIView<EMTipsProgressProtocol> *progressView = (UIView<EMTipsProgressProtocol> *)manualTipsView.customView;
         if ([progressView respondsToSelector:@selector(setProgress:)]) {

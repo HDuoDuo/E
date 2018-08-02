@@ -213,7 +213,7 @@ static NSString *publishAlertEditTableViewCellIdentifier = @"publishAlertEditTab
     [self closeKeyBoard];
     
     if (self.nameTextField.text.length == 0) {
-        [EMTips show:NSLocalizedString(@"请输入提醒名称", nil)];
+        [LHTips show:NSLocalizedString(@"请输入提醒名称", nil)];
         return;
     }
     //构建bean 存入数据库

@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 Aurora Apps. All rights reserved.
 //
 
-#import "GKImageCropOverlayView.h"
+#import "LHImageOverView.h"
 
-@interface GKImageCropOverlayView ()
+@interface LHImageOverView ()
 @property (nonatomic, strong) UIToolbar *toolbar;
 @end
 
-@implementation GKImageCropOverlayView
+@implementation LHImageOverView
 
 #pragma mark -
 #pragma Getter/Setter

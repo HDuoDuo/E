@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GKImageCropView : UIView
+@interface LHImageCropsView : UIView
 
 @property (nonatomic, strong) UIImage *imageToCrop;
 @property (nonatomic, assign) CGSize cropSize;

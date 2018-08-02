@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EMLogoLoopView.h"
+#import "LHLoopView.h"
 
 @interface UIView (EMTips)
 

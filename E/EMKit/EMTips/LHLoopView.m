@@ -6,16 +6,16 @@
 //  Copyright © 2017年 neebel. All rights reserved.
 //
 
-#import "EMLogoLoopView.h"
+#import "LHLoopView.h"
 
-@interface EMLogoLoopView ()
+@interface LHLoopView ()
 
 @property (nonatomic, strong) CALayer   *loopLayer;
 
 @end
 
 
-@implementation EMLogoLoopView
+@implementation LHLoopView
 
 
 

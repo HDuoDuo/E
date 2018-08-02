@@ -7,13 +7,13 @@
 //
 
 #import "GKImageCropViewController.h"
-#import "GKImageCropView.h"
+#import "LHImageCropsView.h"
 
 @interface GKImageCropViewController ()
 {
     GKCancelAction  _cancelAction;
 }
-@property (nonatomic, strong) GKImageCropView *imageCropView;
+@property (nonatomic, strong) LHImageCropsView *imageCropView;
 @property (nonatomic, strong) UIToolbar *toolbar;
 @property (nonatomic, strong) UIButton *cancelButton;
 @property (nonatomic, strong) UIButton *useButton;
@@ -76,7 +76,7 @@
 
 - (void)_setupCropView{
     
-    self.imageCropView = [[GKImageCropView alloc] initWithFrame:self.view.bounds];
+    self.imageCropView = [[LHImageCropsView alloc] initWithFrame:self.view.bounds];
     [self.imageCropView setImageToCrop:sourceImage];
     [self.imageCropView setResizableCropArea:self.resizeableCropArea];
     [self.imageCropView setCropSize:cropSize];

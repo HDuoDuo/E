@@ -11,7 +11,7 @@
 #import "EMTipsInfo.h"
 
 
-@interface EMTips : NSObject
+@interface LHTips : NSObject
 
 @property (nonatomic, strong, readonly) EMTipsView        *autoTipsView;
 @property (nonatomic, strong, readonly) EMTipsView        *manualTipsView;

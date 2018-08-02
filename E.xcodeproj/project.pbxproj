@@ -103,14 +103,14 @@
 		424B585621105A7200534704 /* EMSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57DF21105A7200534704 /* EMSettingHeaderView.m */; };
 		424B585721105A7200534704 /* EMSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E121105A7200534704 /* EMSettingTableViewCell.m */; };
 		424B585821105A7200534704 /* EMSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E321105A7200534704 /* EMSettingViewController.m */; };
-		424B585921105A7200534704 /* FSMediaPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E721105A7200534704 /* FSMediaPicker.m */; };
-		424B585A21105A7200534704 /* GKCropBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E921105A7200534704 /* GKCropBorderView.m */; };
-		424B585B21105A7200534704 /* GKImageCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57EB21105A7200534704 /* GKImageCropOverlayView.m */; };
-		424B585C21105A7200534704 /* GKImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57ED21105A7200534704 /* GKImageCropView.m */; };
+		424B585921105A7200534704 /* LHSourcePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E721105A7200534704 /* LHSourcePicker.m */; };
+		424B585A21105A7200534704 /* LHCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57E921105A7200534704 /* LHCropView.m */; };
+		424B585B21105A7200534704 /* LHImageOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57EB21105A7200534704 /* LHImageOverView.m */; };
+		424B585C21105A7200534704 /* LHImageCropsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57ED21105A7200534704 /* LHImageCropsView.m */; };
 		424B585D21105A7200534704 /* GKImageCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57EF21105A7200534704 /* GKImageCropViewController.m */; };
-		424B585E21105A7200534704 /* EMLogoLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F221105A7200534704 /* EMLogoLoopView.m */; };
-		424B585F21105A7200534704 /* EMProgressLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F421105A7200534704 /* EMProgressLoopView.m */; };
-		424B586021105A7200534704 /* EMTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F621105A7200534704 /* EMTips.m */; };
+		424B585E21105A7200534704 /* LHLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F221105A7200534704 /* LHLoopView.m */; };
+		424B585F21105A7200534704 /* LHProgresLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F421105A7200534704 /* LHProgresLoopView.m */; };
+		424B586021105A7200534704 /* LHTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F621105A7200534704 /* LHTips.m */; };
 		424B586121105A7200534704 /* EMTipsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F821105A7200534704 /* EMTipsInfo.m */; };
 		424B586221105A7200534704 /* EMTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57FA21105A7200534704 /* EMTipsView.m */; };
 		424B586321105A7200534704 /* UIView+EMTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57FC21105A7200534704 /* UIView+EMTips.m */; };
@@ -338,22 +338,22 @@
 		424B57E121105A7200534704 /* EMSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSettingTableViewCell.m; sourceTree = "<group>"; };
 		424B57E221105A7200534704 /* EMSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMSettingViewController.h; sourceTree = "<group>"; };
 		424B57E321105A7200534704 /* EMSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMSettingViewController.m; sourceTree = "<group>"; };
-		424B57E621105A7200534704 /* FSMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMediaPicker.h; sourceTree = "<group>"; };
-		424B57E721105A7200534704 /* FSMediaPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMediaPicker.m; sourceTree = "<group>"; };
-		424B57E821105A7200534704 /* GKCropBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKCropBorderView.h; sourceTree = "<group>"; };
-		424B57E921105A7200534704 /* GKCropBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKCropBorderView.m; sourceTree = "<group>"; };
-		424B57EA21105A7200534704 /* GKImageCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropOverlayView.h; sourceTree = "<group>"; };
-		424B57EB21105A7200534704 /* GKImageCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropOverlayView.m; sourceTree = "<group>"; };
-		424B57EC21105A7200534704 /* GKImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropView.h; sourceTree = "<group>"; };
-		424B57ED21105A7200534704 /* GKImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropView.m; sourceTree = "<group>"; };
+		424B57E621105A7200534704 /* LHSourcePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHSourcePicker.h; sourceTree = "<group>"; };
+		424B57E721105A7200534704 /* LHSourcePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHSourcePicker.m; sourceTree = "<group>"; };
+		424B57E821105A7200534704 /* LHCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHCropView.h; sourceTree = "<group>"; };
+		424B57E921105A7200534704 /* LHCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHCropView.m; sourceTree = "<group>"; };
+		424B57EA21105A7200534704 /* LHImageOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHImageOverView.h; sourceTree = "<group>"; };
+		424B57EB21105A7200534704 /* LHImageOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHImageOverView.m; sourceTree = "<group>"; };
+		424B57EC21105A7200534704 /* LHImageCropsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHImageCropsView.h; sourceTree = "<group>"; };
+		424B57ED21105A7200534704 /* LHImageCropsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHImageCropsView.m; sourceTree = "<group>"; };
 		424B57EE21105A7200534704 /* GKImageCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKImageCropViewController.h; sourceTree = "<group>"; };
 		424B57EF21105A7200534704 /* GKImageCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GKImageCropViewController.m; sourceTree = "<group>"; };
-		424B57F121105A7200534704 /* EMLogoLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLogoLoopView.h; sourceTree = "<group>"; };
-		424B57F221105A7200534704 /* EMLogoLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLogoLoopView.m; sourceTree = "<group>"; };
-		424B57F321105A7200534704 /* EMProgressLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMProgressLoopView.h; sourceTree = "<group>"; };
-		424B57F421105A7200534704 /* EMProgressLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMProgressLoopView.m; sourceTree = "<group>"; };
-		424B57F521105A7200534704 /* EMTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTips.h; sourceTree = "<group>"; };
-		424B57F621105A7200534704 /* EMTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTips.m; sourceTree = "<group>"; };
+		424B57F121105A7200534704 /* LHLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHLoopView.h; sourceTree = "<group>"; };
+		424B57F221105A7200534704 /* LHLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHLoopView.m; sourceTree = "<group>"; };
+		424B57F321105A7200534704 /* LHProgresLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHProgresLoopView.h; sourceTree = "<group>"; };
+		424B57F421105A7200534704 /* LHProgresLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHProgresLoopView.m; sourceTree = "<group>"; };
+		424B57F521105A7200534704 /* LHTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHTips.h; sourceTree = "<group>"; };
+		424B57F621105A7200534704 /* LHTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHTips.m; sourceTree = "<group>"; };
 		424B57F721105A7200534704 /* EMTipsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTipsInfo.h; sourceTree = "<group>"; };
 		424B57F821105A7200534704 /* EMTipsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTipsInfo.m; sourceTree = "<group>"; };
 		424B57F921105A7200534704 /* EMTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMTipsView.h; sourceTree = "<group>"; };
@@ -978,14 +978,14 @@
 		424B57E521105A7200534704 /* EMImagePicker */ = {
 			isa = PBXGroup;
 			children = (
-				424B57E621105A7200534704 /* FSMediaPicker.h */,
-				424B57E721105A7200534704 /* FSMediaPicker.m */,
-				424B57E821105A7200534704 /* GKCropBorderView.h */,
-				424B57E921105A7200534704 /* GKCropBorderView.m */,
-				424B57EA21105A7200534704 /* GKImageCropOverlayView.h */,
-				424B57EB21105A7200534704 /* GKImageCropOverlayView.m */,
-				424B57EC21105A7200534704 /* GKImageCropView.h */,
-				424B57ED21105A7200534704 /* GKImageCropView.m */,
+				424B57E621105A7200534704 /* LHSourcePicker.h */,
+				424B57E721105A7200534704 /* LHSourcePicker.m */,
+				424B57E821105A7200534704 /* LHCropView.h */,
+				424B57E921105A7200534704 /* LHCropView.m */,
+				424B57EA21105A7200534704 /* LHImageOverView.h */,
+				424B57EB21105A7200534704 /* LHImageOverView.m */,
+				424B57EC21105A7200534704 /* LHImageCropsView.h */,
+				424B57ED21105A7200534704 /* LHImageCropsView.m */,
 				424B57EE21105A7200534704 /* GKImageCropViewController.h */,
 				424B57EF21105A7200534704 /* GKImageCropViewController.m */,
 			);
@@ -995,12 +995,12 @@
 		424B57F021105A7200534704 /* EMTips */ = {
 			isa = PBXGroup;
 			children = (
-				424B57F121105A7200534704 /* EMLogoLoopView.h */,
-				424B57F221105A7200534704 /* EMLogoLoopView.m */,
-				424B57F321105A7200534704 /* EMProgressLoopView.h */,
-				424B57F421105A7200534704 /* EMProgressLoopView.m */,
-				424B57F521105A7200534704 /* EMTips.h */,
-				424B57F621105A7200534704 /* EMTips.m */,
+				424B57F121105A7200534704 /* LHLoopView.h */,
+				424B57F221105A7200534704 /* LHLoopView.m */,
+				424B57F321105A7200534704 /* LHProgresLoopView.h */,
+				424B57F421105A7200534704 /* LHProgresLoopView.m */,
+				424B57F521105A7200534704 /* LHTips.h */,
+				424B57F621105A7200534704 /* LHTips.m */,
 				424B57F721105A7200534704 /* EMTipsInfo.h */,
 				424B57F821105A7200534704 /* EMTipsInfo.m */,
 				424B57F921105A7200534704 /* EMTipsView.h */,
@@ -1254,11 +1254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				424B584E21105A7200534704 /* EMCardCollectionViewCell.m in Sources */,
-				424B585921105A7200534704 /* FSMediaPicker.m in Sources */,
+				424B585921105A7200534704 /* LHSourcePicker.m in Sources */,
 				424B584821105A7200534704 /* EMDiaryTableViewCell.m in Sources */,
 				424B584A21105A7200534704 /* EMPublishDiaryViewController.m in Sources */,
 				424B583D21105A7200534704 /* EMMonthBillLegend.m in Sources */,
-				424B585F21105A7200534704 /* EMProgressLoopView.m in Sources */,
+				424B585F21105A7200534704 /* LHProgresLoopView.m in Sources */,
 				424B583E21105A7200534704 /* EMMonthBillTableViewCell.m in Sources */,
 				424B586A21105ACC00534704 /* LHFileCator.m in Sources */,
 				424B580121105A7200534704 /* EMAlertManager.m in Sources */,
@@ -1267,7 +1267,7 @@
 				424B5371211049AB00534704 /* main.m in Sources */,
 				424B582021105A7200534704 /* EMPlaceInfo.m in Sources */,
 				424B584021105A7200534704 /* EMPublishBillEditTableViewCell.m in Sources */,
-				424B585E21105A7200534704 /* EMLogoLoopView.m in Sources */,
+				424B585E21105A7200534704 /* LHLoopView.m in Sources */,
 				424B580821105A7200534704 /* EMDataBase.m in Sources */,
 				424B584521105A7200534704 /* EMDiaryShowHeaderView.m in Sources */,
 				424B580E21105A7200534704 /* EMBigDayHandler.m in Sources */,
@@ -1314,7 +1314,7 @@
 				424B583C21105A7200534704 /* EMBillViewController.m in Sources */,
 				424B584C21105A7200534704 /* EMHomeViewController.m in Sources */,
 				424B581E21105A7200534704 /* EMHomeHandler.m in Sources */,
-				424B585C21105A7200534704 /* GKImageCropView.m in Sources */,
+				424B585C21105A7200534704 /* LHImageCropsView.m in Sources */,
 				424B581721105A7200534704 /* EMDiaryInfo.m in Sources */,
 				424B586121105A7200534704 /* EMTipsInfo.m in Sources */,
 				424B585421105A7200534704 /* EMSettingActionCell.m in Sources */,
@@ -1345,20 +1345,20 @@
 				424B580321105A7200534704 /* EMBaseDatabaseCommonProvider.m in Sources */,
 				424B582521105A7200534704 /* EMAlertViewController.m in Sources */,
 				424B583621105A7200534704 /* EMPublishBigDayEditTableViewCell.m in Sources */,
-				424B585B21105A7200534704 /* GKImageCropOverlayView.m in Sources */,
+				424B585B21105A7200534704 /* LHImageOverView.m in Sources */,
 				424B585621105A7200534704 /* EMSettingHeaderView.m in Sources */,
 				424B582B21105A7200534704 /* EMMaskView.m in Sources */,
 				424B581621105A7200534704 /* EMBillManager.m in Sources */,
 				424B585D21105A7200534704 /* GKImageCropViewController.m in Sources */,
 				424B584721105A7200534704 /* EMDiaryShowViewController.m in Sources */,
-				424B585A21105A7200534704 /* GKCropBorderView.m in Sources */,
+				424B585A21105A7200534704 /* LHCropView.m in Sources */,
 				424B582A21105A7200534704 /* EMDatePicker.m in Sources */,
 				424B585721105A7200534704 /* EMSettingTableViewCell.m in Sources */,
 				424B584921105A7200534704 /* EMDiaryViewController.m in Sources */,
 				424B580D21105A7200534704 /* EMBigDayCacheProvider.m in Sources */,
 				424B581D21105A7200534704 /* EMHomeCacheProvider.m in Sources */,
 				424B581221105A7200534704 /* EMBillMonthInfo.m in Sources */,
-				424B586021105A7200534704 /* EMTips.m in Sources */,
+				424B586021105A7200534704 /* LHTips.m in Sources */,
 				424B584D21105A7200534704 /* EMSplashViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

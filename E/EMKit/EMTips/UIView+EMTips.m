@@ -550,24 +550,24 @@
 
 - (void)showMaskLoadingTips:(NSString *)tips style:(EMLogoLoopViewStyle)style
 {
-    EMLogoLoopView *loopView = [[EMLogoLoopView alloc] initWithStyle:style];
+    LHLoopView *loopView = [[LHLoopView alloc] initWithStyle:style];
     [loopView setFrame:CGRectMake(0, 0, 50, 50)];
-    [EMTips showLoading:loopView message:tips inView:self interaction:NO];
+    [LHTips showLoading:loopView message:tips inView:self interaction:NO];
     [loopView startAnimating];
 }
 
 
 - (void)showMultiLineMessage:(NSString *)message
 {
-    [EMTips showTitle:nil message:message inView:self duration:2 complete:nil];
+    [LHTips showTitle:nil message:message inView:self duration:2 complete:nil];
 }
 
 
 - (void)hideManualTips
 {
-    EMTipsView *currTips = [EMTips sharedTips].manualTipsView;
+    EMTipsView *currTips = [LHTips sharedTips].manualTipsView;
     if ([currTips currentSuperview] == self) {
-        [EMTips hideTips];
+        [LHTips hideTips];
     }
 }
 

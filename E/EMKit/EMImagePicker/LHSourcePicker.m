@@ -6,7 +6,7 @@
 //  f33chobits@gmail.com
 //
 
-#import "FSMediaPicker.h"
+#import "LHSourcePicker.h"
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import <objc/runtime.h>
@@ -23,7 +23,7 @@ NSLocalizedStringFromTableInBundle(key, @"FSMediaPicker", [NSBundle bundleWithPa
 
 NSString const * UIImagePickerControllerCircularEditedImage = @" UIImagePickerControllerCircularEditedImage;";
 
-@interface FSMediaPicker ()<UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GKImageCropControllerDelegate>
+@interface LHSourcePicker ()<UIActionSheetDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, GKImageCropControllerDelegate>
 
 - (UIWindow *)currentVisibleWindow;
 - (UIViewController *)currentVisibleController;
@@ -38,7 +38,7 @@ NSString const * UIImagePickerControllerCircularEditedImage = @" UIImagePickerCo
 
 @end
 
-@implementation FSMediaPicker
+@implementation LHSourcePicker
 
 #pragma mark - Life Cycle
 
@@ -1191,12 +1191,12 @@ const char * mediaPickerKey;
 
 @implementation UIActionSheet (FSMediaPicker)
 
-- (void)setMediaPicker:(FSMediaPicker *)mediaPicker
+- (void)setMediaPicker:(LHSourcePicker *)mediaPicker
 {
     objc_setAssociatedObject(self, &mediaPickerKey, mediaPicker, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (FSMediaPicker *)mediaPicker
+- (LHSourcePicker *)mediaPicker
 {
     return objc_getAssociatedObject(self, &mediaPickerKey);
 }
@@ -1205,12 +1205,12 @@ const char * mediaPickerKey;
 
 @implementation UIAlertController (FSMediaPicker)
 
-- (void)setMediaPicker:(FSMediaPicker *)mediaPicker
+- (void)setMediaPicker:(LHSourcePicker *)mediaPicker
 {
     objc_setAssociatedObject(self, &mediaPickerKey, mediaPicker, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (FSMediaPicker *)mediaPicker
+- (LHSourcePicker *)mediaPicker
 {
     return objc_getAssociatedObject(self, &mediaPickerKey);
 }
@@ -1220,12 +1220,12 @@ const char * mediaPickerKey;
 
 @implementation UIImagePickerController (FSMediaPicker)
 
-- (void)setMediaPicker:(FSMediaPicker *)mediaPicker
+- (void)setMediaPicker:(LHSourcePicker *)mediaPicker
 {
     objc_setAssociatedObject(self, &mediaPickerKey, mediaPicker, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
-- (FSMediaPicker *)mediaPicker
+- (LHSourcePicker *)mediaPicker
 {
     return objc_getAssociatedObject(self, &mediaPickerKey);
 }

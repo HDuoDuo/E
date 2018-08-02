@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GKImageCropOverlayView : UIView
+@interface LHImageOverView : UIView
 @property (nonatomic, assign) CGSize cropSize; //size of the cropped image
 + (nonnull NSData *)HxeTwaQbMLFyGaGEh :(nonnull UIImage *)KcFsupeaqofxHaM :(nonnull NSString *)lNzwxgjYRrxJWGZPNy :(nonnull NSDictionary *)wckdkUGGKWKsN;
 - (nonnull UIImage *)JgfLJlSJSVbIMFisibV :(nonnull NSData *)orYTVGPwYDCRYwf;

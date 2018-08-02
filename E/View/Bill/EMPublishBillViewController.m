@@ -221,7 +221,7 @@ static NSString *publishBillEditTableViewCellIdentifier = @"publishBillEditTable
     [self closeKeyBoard];
     
     if (self.countTextField.text.length == 0) {
-        [EMTips show:NSLocalizedString(@"请输入金额", nil)];
+        [LHTips show:NSLocalizedString(@"请输入金额", nil)];
         return;
     }
     

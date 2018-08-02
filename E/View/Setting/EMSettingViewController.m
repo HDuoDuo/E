@@ -13,7 +13,7 @@
 #import "EMSettingActionSheet.h"
 #import "EMHomeManager.h"
 #import "EMAboutUsViewController.h"
-#import "FSMediaPicker.h"
+#import "LHSourcePicker.h"
 #import "EMShowPhotoTool.h"
 
 @interface EMSettingViewController ()<UITableViewDelegate, UITableViewDataSource, EMSettingActionSheetDelegate, FSMediaPickerDelegate, EMSettingHeaderViewDelegate>
@@ -730,7 +730,7 @@ static NSString *settingTableViewHeaderViewIdentifier = @"settingTableViewHeader
                         break;
                 }
             } else {
-                [EMTips show:NSLocalizedString(@"您的设备不支持拍照", nil)];
+                [LHTips show:NSLocalizedString(@"您的设备不支持拍照", nil)];
             }
         }
             break;
@@ -821,7 +821,7 @@ static NSString *settingTableViewHeaderViewIdentifier = @"settingTableViewHeader
 {
     __weak typeof(self) weakSelf = self;
     [self checkAuthorizationWithType:kEMSettingHeadImageTypeCamera complete:^{
-        FSMediaPicker *mediaPicker = [[FSMediaPicker alloc] initWithDelegate:weakSelf];
+        LHSourcePicker *mediaPicker = [[LHSourcePicker alloc] initWithDelegate:weakSelf];
         mediaPicker.mediaType = FSMediaTypePhoto;
         mediaPicker.editMode = FSEditModeStandard;
         [mediaPicker takePhotoFromCamera];
@@ -833,7 +833,7 @@ static NSString *settingTableViewHeaderViewIdentifier = @"settingTableViewHeader
 {
     __weak typeof(self) weakSelf = self;
     [self checkAuthorizationWithType:kEMSettingHeadImageTypeAlbum complete:^{
-        FSMediaPicker *mediaPicker = [[FSMediaPicker alloc] initWithDelegate:weakSelf];
+        LHSourcePicker *mediaPicker = [[LHSourcePicker alloc] initWithDelegate:weakSelf];
         mediaPicker.mediaType = FSMediaTypePhoto;
         mediaPicker.editMode = FSEditModeStandard;
         [mediaPicker takePhotoFromPhotoLibrary];
@@ -842,7 +842,7 @@ static NSString *settingTableViewHeaderViewIdentifier = @"settingTableViewHeader
 
 #pragma mark - FSMediaPickerDelegate
 
-- (void)mediaPicker:(FSMediaPicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo
+- (void)mediaPicker:(LHSourcePicker *)mediaPicker didFinishWithMediaInfo:(NSDictionary *)mediaInfo
 {
     [self refreshHead:mediaInfo.editedImage];
 }
