@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EMDeviceUtil : NSObject
+@interface LHDeviceCator : NSObject
 
 @property (nonatomic, copy, readonly)   NSString *appName;
 @property (nonatomic, copy, readonly)   NSString *appVersion;

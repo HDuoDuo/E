@@ -114,8 +114,8 @@
 		424B586121105A7200534704 /* EMTipsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57F821105A7200534704 /* EMTipsInfo.m */; };
 		424B586221105A7200534704 /* EMTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57FA21105A7200534704 /* EMTipsView.m */; };
 		424B586321105A7200534704 /* UIView+EMTips.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B57FC21105A7200534704 /* UIView+EMTips.m */; };
-		424B586921105ACC00534704 /* EMDeviceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B586621105ACB00534704 /* EMDeviceUtil.m */; };
-		424B586A21105ACC00534704 /* EMFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B586821105ACB00534704 /* EMFileUtil.m */; };
+		424B586921105ACC00534704 /* LHDeviceCator.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B586621105ACB00534704 /* LHDeviceCator.m */; };
+		424B586A21105ACC00534704 /* LHFileCator.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B586821105ACB00534704 /* LHFileCator.m */; };
 		424B586D2110603B00534704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424B586B2110603B00534704 /* LaunchScreen.storyboard */; };
 		424B586E2110603B00534704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 424B586C2110603B00534704 /* Main.storyboard */; };
 		424B5870211060C200534704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424B586F211060C200534704 /* Assets.xcassets */; };
@@ -360,10 +360,10 @@
 		424B57FA21105A7200534704 /* EMTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMTipsView.m; sourceTree = "<group>"; };
 		424B57FB21105A7200534704 /* UIView+EMTips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EMTips.h"; sourceTree = "<group>"; };
 		424B57FC21105A7200534704 /* UIView+EMTips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EMTips.m"; sourceTree = "<group>"; };
-		424B586521105ACB00534704 /* EMDeviceUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMDeviceUtil.h; sourceTree = "<group>"; };
-		424B586621105ACB00534704 /* EMDeviceUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMDeviceUtil.m; sourceTree = "<group>"; };
-		424B586721105ACB00534704 /* EMFileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMFileUtil.h; sourceTree = "<group>"; };
-		424B586821105ACB00534704 /* EMFileUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMFileUtil.m; sourceTree = "<group>"; };
+		424B586521105ACB00534704 /* LHDeviceCator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDeviceCator.h; sourceTree = "<group>"; };
+		424B586621105ACB00534704 /* LHDeviceCator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHDeviceCator.m; sourceTree = "<group>"; };
+		424B586721105ACB00534704 /* LHFileCator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHFileCator.h; sourceTree = "<group>"; };
+		424B586821105ACB00534704 /* LHFileCator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHFileCator.m; sourceTree = "<group>"; };
 		424B586B2110603B00534704 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		424B586C2110603B00534704 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		424B586F211060C200534704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1014,10 +1014,10 @@
 		424B586421105ACB00534704 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				424B586521105ACB00534704 /* EMDeviceUtil.h */,
-				424B586621105ACB00534704 /* EMDeviceUtil.m */,
-				424B586721105ACB00534704 /* EMFileUtil.h */,
-				424B586821105ACB00534704 /* EMFileUtil.m */,
+				424B586521105ACB00534704 /* LHDeviceCator.h */,
+				424B586621105ACB00534704 /* LHDeviceCator.m */,
+				424B586721105ACB00534704 /* LHFileCator.h */,
+				424B586821105ACB00534704 /* LHFileCator.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -1260,7 +1260,7 @@
 				424B583D21105A7200534704 /* EMMonthBillLegend.m in Sources */,
 				424B585F21105A7200534704 /* EMProgressLoopView.m in Sources */,
 				424B583E21105A7200534704 /* EMMonthBillTableViewCell.m in Sources */,
-				424B586A21105ACC00534704 /* EMFileUtil.m in Sources */,
+				424B586A21105ACC00534704 /* LHFileCator.m in Sources */,
 				424B580121105A7200534704 /* EMAlertManager.m in Sources */,
 				424B580521105A7200534704 /* EMBaseDataProvider.m in Sources */,
 				424B581B21105A7200534704 /* EMAlertConfigInfo.m in Sources */,
@@ -1285,7 +1285,7 @@
 				424B580F21105A7200534704 /* EMBigDayManager.m in Sources */,
 				424B581121105A7200534704 /* EMBillItemInfo.m in Sources */,
 				424B582821105A7200534704 /* EMPublishAlertViewController.m in Sources */,
-				424B586921105ACC00534704 /* EMDeviceUtil.m in Sources */,
+				424B586921105ACC00534704 /* LHDeviceCator.m in Sources */,
 				424B583521105A7200534704 /* EMBigDayViewController.m in Sources */,
 				424B582F21105A7200534704 /* EMTheme.m in Sources */,
 				424B580C21105A7200534704 /* EMBigDayItemInfo.m in Sources */,

@@ -7,7 +7,7 @@
 //
 
 #import "EMBaseLRUCacheProvider.h"
-#import "EMFileUtil.h"
+#import "LHFileCator.h"
 
 @implementation EMBaseLRUCacheProvider
 
@@ -553,7 +553,7 @@
     self = [super init];
     if (self) {
         if (name) {
-            NSString *path = [[EMFileUtil dataRootPath] stringByAppendingPathComponent:name];
+            NSString *path = [[LHFileCator dataRootPath] stringByAppendingPathComponent:name];
             _yyCache = [[YYCache alloc] initWithPath:path];
         }
     }

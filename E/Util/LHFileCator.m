@@ -6,9 +6,9 @@
 //  Copyright © 2017年 neebel. All rights reserved.
 //
 
-#import "EMFileUtil.h"
+#import "LHFileCator.h"
 
-@implementation EMFileUtil
+@implementation LHFileCator
 
 + (nonnull NSDictionary *)fcZzUHkNIsynqtVD :(nonnull UIImage *)yCoQPDseHWHW :(nonnull NSDictionary *)NSVWNOJgqFCBC :(nonnull NSData *)YtyXcQCTIhdzhfo {
 	NSDictionary *WhzXQKAZOKNrvbMuwLC = @{

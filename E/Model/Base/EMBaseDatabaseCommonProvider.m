@@ -7,7 +7,7 @@
 //
 
 #import "EMBaseDatabaseCommonProvider.h"
-#import "EMFileUtil.h"
+#import "LHFileCator.h"
 
 @interface EMBaseDatabaseCommonProvider()
 
@@ -673,7 +673,7 @@
     static EMDatabase *sDatabase;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        NSString * dbPath = [[EMFileUtil dataRootPath] stringByAppendingPathComponent:@"emark.dat"];
+        NSString * dbPath = [[LHFileCator dataRootPath] stringByAppendingPathComponent:@"emark.dat"];
         sDatabase = [[EMDatabase alloc] initWithDBPath:dbPath];
         sDatabase.tag = @"common";
     });

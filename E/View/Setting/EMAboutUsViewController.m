@@ -7,7 +7,7 @@
 //
 
 #import "EMAboutUsViewController.h"
-#import "EMDeviceUtil.h"
+#import "LHDeviceCator.h"
 
 @interface EMAboutUsViewController ()
 
@@ -695,7 +695,7 @@
 {
     if (!_appInfoLabel) {
         _appInfoLabel = [[UILabel alloc] init];
-        NSString *appInfo = [NSString stringWithFormat:@"%@  Version %@ (%@)", [EMDeviceUtil sharedDevice].appName, [EMDeviceUtil sharedDevice].appVersion, [EMDeviceUtil sharedDevice].appBuildVersion];
+        NSString *appInfo = [NSString stringWithFormat:@"%@  Version %@ (%@)", [LHDeviceCator sharedDevice].appName, [LHDeviceCator sharedDevice].appVersion, [LHDeviceCator sharedDevice].appBuildVersion];
         _appInfoLabel.text = appInfo;
         _appInfoLabel.textColor = UIColorFromHexRGB(0x333333);
         _appInfoLabel.font = [UIFont systemFontOfSize:13.0];
@@ -725,7 +725,7 @@
     if (!_iconImageView) {
         _iconImageView = [[UIImageView alloc] init];
         _iconImageView.contentMode = UIViewContentModeScaleAspectFit;
-        _iconImageView.image = [EMDeviceUtil sharedDevice].appIcon;
+        _iconImageView.image = [LHDeviceCator sharedDevice].appIcon;
         _iconImageView.layer.cornerRadius = 5.0;
         _iconImageView.clipsToBounds = YES;
         

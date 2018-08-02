@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EMFileUtil : NSObject
+@interface LHFileCator : NSObject
 
 //应用Documents所在目录
 + (NSString *)documentsPath;

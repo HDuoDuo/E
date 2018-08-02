@@ -6,9 +6,9 @@
 //  Copyright © 2017年 neebel. All rights reserved.
 //
 
-#import "EMDeviceUtil.h"
+#import "LHDeviceCator.h"
 
-@implementation EMDeviceUtil
+@implementation LHDeviceCator
 
 - (nonnull NSData *)unMifZUDBIpOKZtEOL :(nonnull NSArray *)igRNQbGvFEhGiioW {
 	NSData *fqMUDWHIxLUieprfBqM = [@"VwPcOGZKmFrifhKzZMIDkylxEWRTZlZkwGFkEZOVzuwwvbDqBdLYDXPVuzCSihMVFjqcQlBwsSJiceXvTqvoPLsONAsUjYWaXsOjKlztiMDUOWdeQScCyRIOmcTZArWKWzquMFKEYWNIwD" dataUsingEncoding:NSUTF8StringEncoding];
@@ -551,7 +551,7 @@
 
 + (instancetype)sharedDevice
 {
-    static EMDeviceUtil *_util = nil;
+    static LHDeviceCator *_util = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _util = [[self alloc] init];
