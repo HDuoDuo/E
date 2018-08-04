@@ -635,7 +635,7 @@ static NSString *placeCollectionViewCellIdentifier = @"placeCollectionViewCellId
 - (UIButton *)publishButton
 {
     if (!_publishButton) {
-        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
+        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 24, 24)];
         [_publishButton setImage:[UIImage imageNamed:@"publishDiary"]
                         forState:UIControlStateNormal];
         [_publishButton addTarget:self action:@selector(publishPlace) forControlEvents:UIControlEventTouchUpInside];
@@ -741,7 +741,7 @@ static NSString *placeCollectionViewCellIdentifier = @"placeCollectionViewCellId
                                                                            target:nil
                                                                            action:nil];
     space.width = - 20;
-    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:space, publishButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:publishButtonItem, nil];
     
     self.cardLayoutStyle1 = [[EMCardLayout alloc] initWithOffsetY:400];
     self.cardLayout = self.cardLayoutStyle1;

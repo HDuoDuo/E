@@ -57,11 +57,7 @@ static NSString *bigDayCollectionViewCellIdentifier = @"bigDayCollectionViewCell
     self.view.backgroundColor = [EMTheme currentTheme].mainBGColor;
     self.title = NSLocalizedString(@"节日", nil);
     UIBarButtonItem *publishButtonItem = [[UIBarButtonItem alloc] initWithCustomView:self.publishButton];
-    UIBarButtonItem *space = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace
-                                                                           target:nil
-                                                                           action:nil];
-    space.width = - 20;
-    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:space, publishButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:publishButtonItem, nil];
     [self.view addSubview:self.collectionView];
     self.collectionView.mj_footer = self.refreshFooter;
 }
@@ -722,7 +718,7 @@ static NSString *bigDayCollectionViewCellIdentifier = @"bigDayCollectionViewCell
 - (UIButton *)publishButton
 {
     if (!_publishButton) {
-        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
+        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 24, 24)];
         [_publishButton setImage:[UIImage imageNamed:@"publishDiary"]
                         forState:UIControlStateNormal];
         [_publishButton addTarget:self action:@selector(publishBigDay) forControlEvents:UIControlEventTouchUpInside];

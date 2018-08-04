@@ -61,7 +61,7 @@ static NSString *billTableViewHeaderIdentifier = @"billTableViewHeaderIdentifier
                                                                            target:nil
                                                                            action:nil];
     space.width = - 20;
-    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:space, publishButtonItem, nil];
+    self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:publishButtonItem, nil];
     
     [self.view addSubview:self.tableView];
     self.tableView.mj_footer = self.refreshFooter;
@@ -170,7 +170,7 @@ static NSString *billTableViewHeaderIdentifier = @"billTableViewHeaderIdentifier
 - (UIButton *)publishButton
 {
     if (!_publishButton) {
-        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 64, 64)];
+        _publishButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 24, 24)];
         [_publishButton setImage:[UIImage imageNamed:@"publishDiary"]
                         forState:UIControlStateNormal];
         [_publishButton addTarget:self action:@selector(publishBill) forControlEvents:UIControlEventTouchUpInside];
