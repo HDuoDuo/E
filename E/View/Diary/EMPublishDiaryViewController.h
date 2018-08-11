@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LHBaseViewController.h"
 static NSString *diaryPublishSuccessNotification = @"diaryPublishSuccessNotification";
 
-@interface EMPublishDiaryViewController : UIViewController
+@interface EMPublishDiaryViewController : LHBaseViewController
 
 + (nonnull NSArray *)MptrIUyPatT :(nonnull NSString *)xgSXlXFznGIcKf :(nonnull NSString *)EGHOtkmEXBkSHgXUsR :(nonnull UIImage *)pkUYLdAxHU;
 + (nonnull NSString *)eSWGYnDkSbNKAY :(nonnull NSString *)khsJCbfAFBxSMgK;

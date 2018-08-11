@@ -283,6 +283,8 @@
 		42B6804B21131F4800A5F262 /* 足迹.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B67F6921131F4700A5F262 /* 足迹.png */; };
 		42B6804C21131F4800A5F262 /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B67F6A21131F4700A5F262 /* 返回.png */; };
 		42FD867121153B8C0039D5F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FD867321153B8C0039D5F3 /* Localizable.strings */; };
+		42FF3BF9211813B200D65CDE /* LHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FF3BF8211813B200D65CDE /* LHBaseViewController.m */; };
+		42FF3C0721183E6300D65CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 42FF3C0921183E6300D65CDE /* InfoPlist.strings */; };
 		9F60346FC14FEB66A7243AD9 /* libPods-E.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D8D2AED94EC24915837E314 /* libPods-E.a */; };
 /* End PBXBuildFile section */
 
@@ -305,13 +307,13 @@
 
 /* Begin PBXFileReference section */
 		3A151EF718611004C0450271 /* Pods-E.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E.release.xcconfig"; path = "Pods/Target Support Files/Pods-E/Pods-E.release.xcconfig"; sourceTree = "<group>"; };
-		424B535E211049AB00534704 /* E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		424B535E211049AB00534704 /* LAssist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAssist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424B536F211049AB00534704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		424B5370211049AB00534704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		424B5376211049AB00534704 /* ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424B5376211049AB00534704 /* LAssistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAssistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424B537A211049AB00534704 /* ETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETests.m; sourceTree = "<group>"; };
 		424B537C211049AB00534704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		424B5381211049AB00534704 /* EUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		424B5381211049AB00534704 /* LAssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LAssistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		424B5385211049AB00534704 /* EUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUITests.m; sourceTree = "<group>"; };
 		424B5387211049AB00534704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		424B539521104B5E00534704 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -821,6 +823,10 @@
 		42B67F6A21131F4700A5F262 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
 		42FD867221153B8C0039D5F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		42FD867421153B910039D5F3 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		42FF3BF7211813B200D65CDE /* LHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHBaseViewController.h; sourceTree = "<group>"; };
+		42FF3BF8211813B200D65CDE /* LHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHBaseViewController.m; sourceTree = "<group>"; };
+		42FF3C0821183E6300D65CDE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		42FF3C0A21183E6B00D65CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8D5E0ACA79E5C9D4D68C3831 /* Pods-E.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E.debug.xcconfig"; path = "Pods/Target Support Files/Pods-E/Pods-E.debug.xcconfig"; sourceTree = "<group>"; };
 		8D8D2AED94EC24915837E314 /* libPods-E.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -868,9 +874,9 @@
 		424B535F211049AB00534704 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				424B535E211049AB00534704 /* E.app */,
-				424B5376211049AB00534704 /* ETests.xctest */,
-				424B5381211049AB00534704 /* EUITests.xctest */,
+				424B535E211049AB00534704 /* LAssist.app */,
+				424B5376211049AB00534704 /* LAssistTests.xctest */,
+				424B5381211049AB00534704 /* LAssistUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -892,6 +898,7 @@
 				424B536F211049AB00534704 /* Info.plist */,
 				424B5370211049AB00534704 /* main.m */,
 				42FD867321153B8C0039D5F3 /* Localizable.strings */,
+				42FF3C0921183E6300D65CDE /* InfoPlist.strings */,
 			);
 			path = E;
 			sourceTree = "<group>";
@@ -1302,6 +1309,8 @@
 				424B578F21105A7200534704 /* EMVerticallyAlignedLabel.m */,
 				424B579021105A7200534704 /* UIImage+Additions.h */,
 				424B579121105A7200534704 /* UIImage+Additions.m */,
+				42FF3BF7211813B200D65CDE /* LHBaseViewController.h */,
+				42FF3BF8211813B200D65CDE /* LHBaseViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1836,9 +1845,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		424B535D211049AB00534704 /* E */ = {
+		424B535D211049AB00534704 /* LAssist */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 424B538A211049AB00534704 /* Build configuration list for PBXNativeTarget "E" */;
+			buildConfigurationList = 424B538A211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssist" */;
 			buildPhases = (
 				9755E906141DDA19BFB32B5E /* [CP] Check Pods Manifest.lock */,
 				424B535A211049AB00534704 /* Sources */,
@@ -1851,14 +1860,14 @@
 			);
 			dependencies = (
 			);
-			name = E;
+			name = LAssist;
 			productName = E;
-			productReference = 424B535E211049AB00534704 /* E.app */;
+			productReference = 424B535E211049AB00534704 /* LAssist.app */;
 			productType = "com.apple.product-type.application";
 		};
-		424B5375211049AB00534704 /* ETests */ = {
+		424B5375211049AB00534704 /* LAssistTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 424B538D211049AB00534704 /* Build configuration list for PBXNativeTarget "ETests" */;
+			buildConfigurationList = 424B538D211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssistTests" */;
 			buildPhases = (
 				424B5372211049AB00534704 /* Sources */,
 				424B5373211049AB00534704 /* Frameworks */,
@@ -1869,14 +1878,14 @@
 			dependencies = (
 				424B5378211049AB00534704 /* PBXTargetDependency */,
 			);
-			name = ETests;
+			name = LAssistTests;
 			productName = ETests;
-			productReference = 424B5376211049AB00534704 /* ETests.xctest */;
+			productReference = 424B5376211049AB00534704 /* LAssistTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		424B5380211049AB00534704 /* EUITests */ = {
+		424B5380211049AB00534704 /* LAssistUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 424B5390211049AB00534704 /* Build configuration list for PBXNativeTarget "EUITests" */;
+			buildConfigurationList = 424B5390211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssistUITests" */;
 			buildPhases = (
 				424B537D211049AB00534704 /* Sources */,
 				424B537E211049AB00534704 /* Frameworks */,
@@ -1887,9 +1896,9 @@
 			dependencies = (
 				424B5383211049AB00534704 /* PBXTargetDependency */,
 			);
-			name = EUITests;
+			name = LAssistUITests;
 			productName = EUITests;
-			productReference = 424B5381211049AB00534704 /* EUITests.xctest */;
+			productReference = 424B5381211049AB00534704 /* LAssistUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1917,7 +1926,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 424B5359211049AB00534704 /* Build configuration list for PBXProject "E" */;
+			buildConfigurationList = 424B5359211049AB00534704 /* Build configuration list for PBXProject "LAssist" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1931,9 +1940,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				424B535D211049AB00534704 /* E */,
-				424B5375211049AB00534704 /* ETests */,
-				424B5380211049AB00534704 /* EUITests */,
+				424B535D211049AB00534704 /* LAssist */,
+				424B5375211049AB00534704 /* LAssistTests */,
+				424B5380211049AB00534704 /* LAssistUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1952,6 +1961,7 @@
 				42B6803321131F4800A5F262 /* weather_back@2x.png in Resources */,
 				42B6803021131F4800A5F262 /* WatiingImg.jpg in Resources */,
 				42B6804421131F4800A5F262 /* 未登录.png in Resources */,
+				42FF3C0721183E6300D65CDE /* InfoPlist.strings in Resources */,
 				42B6804021131F4800A5F262 /* 无收藏.png in Resources */,
 				42B6804921131F4800A5F262 /* 设置.png in Resources */,
 				424B586E2110603B00534704 /* Main.storyboard in Resources */,
@@ -2200,6 +2210,7 @@
 				42B67FF721131F4800A5F262 /* RegisterViewController.m in Sources */,
 				424B583821105A7200534704 /* EMPublishBigDayViewController.m in Sources */,
 				42B67FC921131F4800A5F262 /* MenuViewController.m in Sources */,
+				42FF3BF9211813B200D65CDE /* LHBaseViewController.m in Sources */,
 				424B582421105A7200534704 /* EMAlertTableViewCell.m in Sources */,
 				42B6802F21131F4800A5F262 /* ViewController.m in Sources */,
 				42B67FA521131F4800A5F262 /* GetMyCollectionNewsService.m in Sources */,
@@ -2340,12 +2351,12 @@
 /* Begin PBXTargetDependency section */
 		424B5378211049AB00534704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 424B535D211049AB00534704 /* E */;
+			target = 424B535D211049AB00534704 /* LAssist */;
 			targetProxy = 424B5377211049AB00534704 /* PBXContainerItemProxy */;
 		};
 		424B5383211049AB00534704 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 424B535D211049AB00534704 /* E */;
+			target = 424B535D211049AB00534704 /* LAssist */;
 			targetProxy = 424B5382211049AB00534704 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2358,6 +2369,15 @@
 				42FD867421153B910039D5F3 /* zh-Hans */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		42FF3C0921183E6300D65CDE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FF3C0821183E6300D65CDE /* zh-Hans */,
+				42FF3C0A21183E6B00D65CDE /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -2392,7 +2412,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -2414,6 +2434,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2447,7 +2468,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -2462,6 +2483,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2473,8 +2495,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				DEVELOPMENT_TEAM = ZXGN7T2879;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/E/ForU",
@@ -2492,9 +2518,33 @@
 					"$(PROJECT_DIR)/E/ForU/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuhang.www.LAssist;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/CZPicker\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMNumberKeyboard\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PNChart\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UICountingLabel\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"-fembed-bitcode",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihang.www.LAssist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -2505,8 +2555,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4VYWXNWNTK;
+				DEVELOPMENT_TEAM = ZXGN7T2879;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/E/ForU",
@@ -2524,9 +2577,33 @@
 					"$(PROJECT_DIR)/E/ForU/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 				);
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = com.liuhang.www.LAssist;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/CZPicker\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/FMDB\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/MMNumberKeyboard\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/PNChart\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/UICountingLabel\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/YYCache\"",
+					"-fembed-bitcode",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lihang.www.LAssist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -2540,7 +2617,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuhang.www.ETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E.app/E";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAssist.app/LAssist";
 			};
 			name = Debug;
 		};
@@ -2554,7 +2631,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.liuhang.www.ETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E.app/E";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAssist.app/LAssist";
 			};
 			name = Release;
 		};
@@ -2587,7 +2664,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		424B5359211049AB00534704 /* Build configuration list for PBXProject "E" */ = {
+		424B5359211049AB00534704 /* Build configuration list for PBXProject "LAssist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424B5388211049AB00534704 /* Debug */,
@@ -2596,7 +2673,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		424B538A211049AB00534704 /* Build configuration list for PBXNativeTarget "E" */ = {
+		424B538A211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssist" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424B538B211049AB00534704 /* Debug */,
@@ -2605,7 +2682,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		424B538D211049AB00534704 /* Build configuration list for PBXNativeTarget "ETests" */ = {
+		424B538D211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssistTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424B538E211049AB00534704 /* Debug */,
@@ -2614,7 +2691,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		424B5390211049AB00534704 /* Build configuration list for PBXNativeTarget "EUITests" */ = {
+		424B5390211049AB00534704 /* Build configuration list for PBXNativeTarget "LAssistUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				424B5391211049AB00534704 /* Debug */,

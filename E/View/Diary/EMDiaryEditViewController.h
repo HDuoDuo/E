@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "EMDiaryInfo.h"
+#import "LHBaseViewController.h"
 
 static NSString *diaryUpdateSuccessNotification = @"diaryUpdateSuccessNotification";
 
-@interface EMDiaryEditViewController : UIViewController
+@interface EMDiaryEditViewController : LHBaseViewController
 
 @property (nonatomic, strong) EMDiaryInfo *diaryInfo;
 

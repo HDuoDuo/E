@@ -657,13 +657,12 @@ static NSString *placeCollectionViewCellIdentifier = @"placeCollectionViewCellId
 - (UICollectionView *)cardCollectionView
 {
     if (!_cardCollectionView) {
-        _cardCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0 , self.view.bounds.size.width, self.view.bounds.size.height)
+        _cardCollectionView = [[UICollectionView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width, self.view.bounds.size.height)
                                                  collectionViewLayout:self.cardLayout];
         [_cardCollectionView registerClass:[EMCardCollectionViewCell class]
                 forCellWithReuseIdentifier:placeCollectionViewCellIdentifier];
         _cardCollectionView.delegate = self;
         _cardCollectionView.dataSource = self;
-        [_cardCollectionView setContentOffset:CGPointMake(0, 400)];
         _cardCollectionView.backgroundColor = [UIColor whiteColor];
     }
     
@@ -743,7 +742,7 @@ static NSString *placeCollectionViewCellIdentifier = @"placeCollectionViewCellId
     space.width = - 20;
     self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:publishButtonItem, nil];
     
-    self.cardLayoutStyle1 = [[EMCardLayout alloc] initWithOffsetY:400];
+    self.cardLayoutStyle1 = [[EMCardLayout alloc] initWithOffsetY:0];
     self.cardLayout = self.cardLayoutStyle1;
     ((EMCardLayout *)self.cardLayoutStyle1).delegate = self;
     

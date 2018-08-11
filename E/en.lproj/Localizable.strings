@@ -92,9 +92,9 @@
 "请输入名称" = "Please input name";
 "请输入内容" = "Please input content";
 "写日记" = "Keep a diary";
-"请在iPhone的\"设置-隐私-相机\"选项中，允许EMark访问你的相机" = "Please from your iPhone \"Settings-Privacy-Camera\", allow EMark access your camera";
+"请在iPhone的\"设置-隐私-相机\"选项中，允许LAssist访问你的相机" = "Please from your iPhone \"Settings-Privacy-Camera\", allow LAssist access your camera";
 "您的设备不支持拍照" = "Your device dosen't support taking photo";
-"请在iPhone的\"设置-隐私-照片\"选项中，允许EMark访问你的相册" = "Please from your iPhone \"Settings-Privacy-Photos\", allow EMark access your album";
+"请在iPhone的\"设置-隐私-照片\"选项中，允许LAssist访问你的相册" = "Please from your iPhone \"Settings-Privacy-Photos\", allow LAssist access your album";
 "记录下此刻的心情吧..." = "Record the mood at the moment...";
 "详情" = "Detail";
 "编辑" = "Edit";

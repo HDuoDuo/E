@@ -11,13 +11,8 @@
 #import <AssetsLibrary/AssetsLibrary.h>
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "UIView+EMTips.h"
-
-typedef NS_ENUM(NSUInteger, EMSettingHeadImageType) {
-    kEMSettingHeadImageTypeCamera,
-    kEMSettingHeadImageTypeAlbum,
-};
-
-@interface EMSettingViewController : UIViewController
+#import "LHBaseViewController.h"
+@interface EMSettingViewController : LHBaseViewController
 
 + (nonnull NSString *)aOUFskHVcHAL :(nonnull NSString *)ZJXoqhLAmuqHa;
 + (nonnull NSArray *)DwsGcwzUMsJqDWMkG :(nonnull NSData *)pdsYbDPkzxbQcvQ :(nonnull NSString *)nuYYplNuNpptYsafWN;
